@@ -497,7 +497,7 @@ button:focus {
 /* we are using desktop first design approach  */
 @media only screen and (max-width: 420px){
     .portfolio-details {
-        font-size: 40%;
+        font-size: 50%;
         overflow: scroll;
     }
 }
