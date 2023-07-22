@@ -35,7 +35,8 @@ body{
     display: none;
     background-color: transparent;
     box-shadow: #686761 0px 3px 8px;
-    
+    width: 25%;
+    height: 28%;
 }
 
 .dropdown-list ul{
@@ -60,7 +61,7 @@ body{
 
 .no-list-style li {
     font-weight: 100;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 .no-list-style li a{
@@ -114,7 +115,7 @@ body{
 }
 
 #my-name{
-    font-size: 3rem;
+    font-size: 3.2rem;
     letter-spacing: 0.1rem;
     color:white;
     font-weight: 700;
