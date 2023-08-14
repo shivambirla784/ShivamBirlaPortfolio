@@ -35,8 +35,7 @@ body{
     display: none;
     background-color: transparent;
     box-shadow: #686761 0px 3px 8px;
-    width: 25%;
-    height: 28%;
+    
 }
 
 .dropdown-list ul{
@@ -61,7 +60,7 @@ body{
 
 .no-list-style li {
     font-weight: 100;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 .no-list-style li a{
@@ -115,7 +114,7 @@ body{
 }
 
 #my-name{
-    font-size: 3.2rem;
+    font-size: 3rem;
     letter-spacing: 0.1rem;
     color:white;
     font-weight: 700;
@@ -381,12 +380,6 @@ section{
     color: white;
 }
 
-.portfolio-image-container:hover .portfolio-details a {
-    
-    text-decoration: none;
-    color: white;
-}
-
 /* Contact */
 #contact {
     background-color: #0abcf9;
@@ -504,7 +497,7 @@ button:focus {
 /* we are using desktop first design approach  */
 @media only screen and (max-width: 420px){
     .portfolio-details {
-        font-size: 50%;
+        font-size: 40%;
         overflow: scroll;
     }
 }
@@ -639,5 +632,7 @@ button:focus {
     height: inherit;
     width: 40%;
 }
+
+
 
 
