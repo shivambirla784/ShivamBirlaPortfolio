@@ -376,8 +376,14 @@ section{
     box-shadow: 0 0 20px #74ADC8;
 }
 
-.portfolio-image-container:hover .portfolio-details, a {
+.portfolio-image-container:hover .portfolio-details {
     background-color: #80808078;
+    color: white;
+}
+
+.portfolio-image-container:hover .portfolio-details a {
+    
+    text-decoration: none;
     color: white;
 }
 
